@@ -2,11 +2,11 @@
     <head>
 
 
-        <link rel='stylesheet' type='text/css' href='styles.css' />
+        <link rel='stylesheet' type='text/css' href='http://sujuod_zoubi.dc7.us/styles.css' />
         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-        <script type='text/javascript' src='menu_jquery.js'></script>
+        <script type='text/javascript' src='http://sujuod_zoubi.dc7.us/menu_jquery.js'></script>
         <meta charset=utf-8 />
-        <script type="text/javascript" src="./ajax.js"></script>
+        <script type="text/javascript" src="http://sujuod_zoubi.dc7.us/ajax.js"></script>
 
         <style  type="text/css">
             .art-image

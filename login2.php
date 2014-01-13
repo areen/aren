@@ -3,10 +3,10 @@
   <head>
         <meta charset=utf-8 />
          <title></title>
-          <link rel="stylesheet" type="text/css" href="tst.css">
+          <link rel="stylesheet" type="text/css" href="http://sujuod_zoubi.dc7.us/tst.css">
          
                 <script src="http://code.jquery.com/jquery-latest.js"></script>
-                <script src="ajax.js"></script>
+                <script src="http://sujuod_zoubi.dc7.us/ajax.js"></script>
 		
     </head>
 	    <body> 
