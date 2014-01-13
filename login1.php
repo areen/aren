@@ -59,7 +59,7 @@
     <body>
 
 
-        <form id="myform2" action="login2.php" method="post">
+        <form id="myform2" action="http://sujuod_zoubi.dc7.us/login2.php" method="post">
             <?php
             include_once('confg.php');
 
@@ -75,7 +75,7 @@
             while ($row = mysql_fetch_array($result)) {
                 ///// retreiving image from mysql :
 
-                echo" <img class='art-image' src='capture.png'>";
+                echo" <img class='art-image' src='./capture.png'>";
                 echo"  <img  class='art-img' src='imag.php?SN1=" . $row["course_semester"] . "'  />";
 
                 echo" </br>";
