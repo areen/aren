@@ -22,7 +22,7 @@
         </div>
  <?php
 
-        include_once('confg.php') ;
+        include_once('http://sujuod_zoubi.dc7.us/confg.php') ;
           $sql_filter_01= mysql_real_escape_string($_POST["hihi"]);
           $sql_filter_02 = mysql_real_escape_string($_POST["my_name"]);
         

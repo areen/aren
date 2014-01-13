@@ -61,7 +61,7 @@
 
         <form id="myform2" action="http://sujuod_zoubi.dc7.us/login2.php" method="post">
             <?php
-            include_once('confg.php');
+            include_once('http://sujuod_zoubi.dc7.us/confg.php');
 
             $ID_i = mysql_real_escape_string($_POST["ID"]);
             $Password_i = mysql_real_escape_string($_POST["Password"]);
@@ -75,8 +75,8 @@
             while ($row = mysql_fetch_array($result)) {
                 ///// retreiving image from mysql :
 
-                echo" <img class='art-image' src='./capture.png'>";
-                echo"  <img  class='art-img' src='imag.php?SN1=" . $row["course_semester"] . "'  />";
+                echo" <img class='art-image' src='http://sujuod_zoubi.dc7.us/capture.png'>";
+                echo"  <img  class='art-img' src='http://sujuod_zoubi.dc7.us/imag.php?SN1=" . $row["course_semester"] . "'  />";
 
                 echo" </br>";
                 echo "<div   class='zzzz'>Student Name: " . $row["student_name"] . "</br></div>";
