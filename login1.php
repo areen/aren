@@ -2,11 +2,11 @@
     <head>
 
 
-        <link rel='stylesheet' type='text/css' href='http://sujuod_zoubi.dc7.us/styles.css' />
+        <link rel='stylesheet' type='text/css' href='http://sujuod_zoubi.dc7.us/aren/styles.css' />
         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-        <script type='text/javascript' src='http://sujuod_zoubi.dc7.us/menu_jquery.js'></script>
+        <script type='text/javascript' src='http://sujuod_zoubi.dc7.us/aren/menu_jquery.js'></script>
         <meta charset=utf-8 />
-        <script type="text/javascript" src="http://sujuod_zoubi.dc7.us/ajax.js"></script>
+        <script type="text/javascript" src="http://sujuod_zoubi.dc7.us/aren/ajax.js"></script>
 
         <style  type="text/css">
             .art-image
@@ -59,9 +59,9 @@
     <body>
 
 
-        <form id="myform2" action="http://sujuod_zoubi.dc7.us/login2.php" method="post">
+        <form id="myform2" action="http://sujuod_zoubi.dc7.us/aren/login2.php" method="post">
             <?php
-            include_once('http://sujuod_zoubi.dc7.us/confg.php');
+            include_once('http://sujuod_zoubi.dc7.us/aren/confg.php');
 
             $ID_i = mysql_real_escape_string($_POST["ID"]);
             $Password_i = mysql_real_escape_string($_POST["Password"]);
@@ -75,8 +75,8 @@
             while ($row = mysql_fetch_array($result)) {
                 ///// retreiving image from mysql :
 
-                echo" <img class='art-image' src='http://sujuod_zoubi.dc7.us/capture.png'>";
-                echo"  <img  class='art-img' src='http://sujuod_zoubi.dc7.us/imag.php?SN1=" . $row["course_semester"] . "'  />";
+                echo" <img class='art-image' src='./capture.png'>";
+                echo"  <img  class='art-img' src='http://sujuod_zoubi.dc7.us/aren/imag.php?SN1=" . $row["course_semester"] . "'  />";
 
                 echo" </br>";
                 echo "<div   class='zzzz'>Student Name: " . $row["student_name"] . "</br></div>";

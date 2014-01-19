@@ -3,10 +3,10 @@
   <head>
         <meta charset=utf-8 />
          <title></title>
-          <link rel="stylesheet" type="text/css" href="http://sujuod_zoubi.dc7.us/tst.css">
+          <link rel="stylesheet" type="text/css" href="http://sujuod_zoubi.dc7.us/aren/tst.css">
          
                 <script src="http://code.jquery.com/jquery-latest.js"></script>
-                <script src="http://sujuod_zoubi.dc7.us/ajax.js"></script>
+                <script src="http://sujuod_zoubi.dc7.us/aren/ajax.js"></script>
 		
     </head>
 	    <body> 
@@ -22,7 +22,7 @@
         </div>
  <?php
 
-        include_once('http://sujuod_zoubi.dc7.us/confg.php') ;
+        include_once('http://sujuod_zoubi.dc7.us/aren/confg.php') ;
           $sql_filter_01= mysql_real_escape_string($_POST["hihi"]);
           $sql_filter_02 = mysql_real_escape_string($_POST["my_name"]);
         
